@@ -1,0 +1,12 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Enter Number");
+        Scanner sc = new Scanner (System.in);
+        int x = sc.nextInt();
+        if((x&1)==1)
+            System.out.print("odd");
+        else
+            System.out.print("Even");
+    }
+}
