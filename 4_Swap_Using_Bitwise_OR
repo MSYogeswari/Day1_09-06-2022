@@ -1,0 +1,13 @@
+import java.util.*;
+class 4_Swap_Using_Bitwise_OR {
+    public static void main(String[] args) {
+        System.out.println("Enter two Numbers");
+        Scanner sc = new Scanner (System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+        m = m^n;
+        n=m^n;
+        m=m^n;
+        System.out.println("After swapping" + m + " " + n);
+    }
+}
